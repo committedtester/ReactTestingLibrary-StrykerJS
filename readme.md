@@ -3,8 +3,8 @@ To confirm the combination of React Testing Library and Mutation Testing
 
 ## STEPS
 1) Create a basic React Application - DONE
-2) Apply React Testing Library with Jest 
-3) Use Stryker to identify testing gaps
+2) Apply React Testing Library with Jest - DONE
+3) Use Stryker to identify testing gaps - DONE
 
 ## HOW TO
 * React application created with 'npx create-react-app react-test-example'
@@ -20,4 +20,7 @@ Note the use of the stryker.config.json file
 * We are also using the Ignore Static method to speed up the execution as per
 [link](https://stryker-mutator.io/docs/mutation-testing-elements/static-mutants/)
 [link](https://stryker-mutator.io/docs/stryker-js/configuration/#ignorestatic-boolean)
+
+POTENTIAL NEXT STEPS
+- Add more React functionality and tests to see how Stryker scales further
 

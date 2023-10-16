@@ -4,5 +4,7 @@
       "projectType": "create-react-app"
     },
     "tempDirName": "stryker-tmp",
-    "mutate":["src/components/*.js"]
+    "mutate":["src/components/*.js"],
+    "coverageAnalysis": "perTest",
+    "ignoreStatic": true
   }
